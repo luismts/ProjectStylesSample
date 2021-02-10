@@ -79,18 +79,8 @@
             public const string NONE = "LetterSpacing.None";
         }
 
-        internal const string FONTSIZE_BODY1 = "FontSize.Body1";
-        internal const string FONTSIZE_BODY2 = "FontSize.Body2";
-        internal const string FONTSIZE_BUTTON = "FontSize.Button";
-        internal const string FONT_BODY1 = "TypeScale.Body1";
-        internal const string FONT_BODY2 = "TypeScale.Body2";
-        internal const string FONT_BUTTON = "TypeScale.Button";
-        internal const string BUTTON_CORNERRADIUS = "Button.CornerRadius";
-        internal const string BUTTON_OUTLINED_BORDERWIDTH = "Button.Outlined.BorderWidth";
-        internal const string BUTTON_HEIGHT = "Button.Height";
-        internal const string BUTTON_OUTLINED_BORDERCOLOR = "Button.Outlined.BorderColor";
-        internal const string FONTATTRIBUTE_BOLD = "FontAttribute.Bold";
-        internal const string LINEHEIGHT = "LineHeight";
+        public const string FONTATTRIBUTE_BOLD = "FontAttribute.Bold";
+        public const string LINEHEIGHT = "LineHeight";
 
         public static class Controls
         {
