@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ResourceDictionary
+    x:Class="ProjectStylesSample.Resources.Style.Base"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Style Class="H1" TargetType="Label">
+        <Setter Property="FontSize" Value="{StaticResource FontSize.H1}" />
+        <Setter Property="TextColor" Value="{StaticResource Color.OnSurface}" />
+        <Setter Property="CharacterSpacing" Value="{StaticResource LetterSpacing.H1}" />
+        <Setter Property="FontFamily" Value="{StaticResource FontFamily.H1}" />
+    </Style>
+
+    <Style Class="ButtonPrimary" TargetType="Button">
+        <Setter Property="FontSize" Value="{StaticResource FontSize.Button}" />
+        <Setter Property="BackgroundColor" Value="{StaticResource Color.Primary}" />
+        <Setter Property="TextColor" Value="{StaticResource Color.OnPrimary}" />
+        <Setter Property="CornerRadius" Value="{StaticResource Button.CornerRadius}" />
+        <Setter Property="HeightRequest" Value="{StaticResource Button.Height}" />
+    </Style>
+
+</ResourceDictionary>
