@@ -6,7 +6,7 @@ namespace ProjectStyles.Resources.Configuration
     /// <summary>
     /// Class that provides theme configuration that will be applied in the current App.
     /// </summary>
-    public class Configuration : BindableObject
+    public class StyleConfiguration : BindableObject
     {
         /// <summary>
         /// Backing field for the bindable property <see cref="FontConfiguration"/>.
