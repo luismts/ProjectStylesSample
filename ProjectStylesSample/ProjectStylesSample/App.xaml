@@ -7,7 +7,7 @@
 
     <Application.Resources>
 
-        <stl:FontConfiguration
+        <!--<stl:FontConfiguration
             x:Key="Style.Font"
             Body1="{StaticResource FontFamily.RobotoRegular}"
             Body2="{StaticResource FontFamily.RobotoRegular}"
@@ -41,7 +41,7 @@
         <stl:StyleConfiguration
             x:Key="Style.Configuration"
             ColorConfiguration="{StaticResource Material.Color}"
-            FontConfiguration="{StaticResource Material.Font}" />
+            FontConfiguration="{StaticResource Material.Font}" />-->
 
     </Application.Resources>
 </Application>
