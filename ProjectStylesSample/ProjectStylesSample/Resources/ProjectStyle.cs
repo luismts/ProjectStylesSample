@@ -75,6 +75,7 @@ namespace ProjectStyles.Resources
                 {
                     if (!_resources.MergedDictionaries.Contains((defaultColors.Value)))
                         _resources.MergedDictionaries.Add(defaultColors.Value);
+
                     if (!_resources.MergedDictionaries.Contains((defaultTypos.Value)))
                         _resources.MergedDictionaries.Add(defaultTypos.Value);
                 }
